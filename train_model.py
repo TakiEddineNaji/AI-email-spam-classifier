@@ -1,3 +1,13 @@
+"""
+AI-Powered Email Spam Classifier
+Created by: [Your Name]
+GitHub: [Your GitHub Profile]
+Date: 2024
+
+This module implements the core functionality for training and evaluating
+email spam classification models using various machine learning algorithms.
+"""
+
 import pandas as pd
 import numpy as np
 import re
@@ -20,6 +30,10 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 class EmailClassifier:
+    """
+    A class for email spam classification using machine learning.
+    Created by: [Your Name]
+    """
     def __init__(self):
         self.lemmatizer = WordNetLemmatizer()
         self.stop_words = set(stopwords.words('english'))
@@ -111,6 +125,10 @@ class EmailClassifier:
         plt.close()
 
 def main():
+    """
+    Main function to train and evaluate the email spam classifier.
+    Created by: [Your Name]
+    """
     # Initialize the classifier
     classifier = EmailClassifier()
     
