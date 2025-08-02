@@ -5,7 +5,7 @@ An intelligent email spam classifier that uses machine learning to distinguish b
 ## Author
 - **Built and Directed by**: Taki-Eddine Naji
 - **GitHub**: https://github.com/TakiEddineNaji/
-- **Date**: 2024
+- **Date**: 2022
 
 ## AI-Assisted Development
 This project was developed using AI tools throughout the process, including code generation, debugging, and optimization.
